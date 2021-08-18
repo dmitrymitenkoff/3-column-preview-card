@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/dmitrymitenkoff/3-column-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [3-column-preview-card](https://3-column-preview-card-cyan.vercel.app/)
 
 ## My process
 
