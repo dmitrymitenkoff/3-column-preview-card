@@ -42,9 +42,11 @@ body {
 .card:nth-child(1) {
   background-color: var(--bright-orange);
 }
+
 .card:nth-child(2) {
   background-color: var(--dark-cyan);
 }
+
 .card:nth-child(3) {
   background-color: var(--very-dark-cyan);
 }
@@ -99,20 +101,21 @@ p {
   color: var(--very-dark-cyan);
 }
 
+.card a:hover {
+  border: 2px solid white;
+  color: var(--very-light-gray);
+}
+
 .card:nth-child(1) a:hover {
-  border: 2px solid white;
   background-color: var(--bright-orange);
-  color: var(--very-light-gray);
 }
+
 .card:nth-child(2) a:hover {
-  border: 2px solid white;
   background-color: var(--dark-cyan);
-  color: var(--very-light-gray);
 }
+
 .card:nth-child(3) a:hover {
-  border: 2px solid white;
   background-color: var(--very-dark-cyan);
-  color: var(--very-light-gray);
 }
 
 /*--------------------------------------------------------------
@@ -145,9 +148,6 @@ footer {
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
-
-
-
 
 
 @media (min-width: 900px) {
